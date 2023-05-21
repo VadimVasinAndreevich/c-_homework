@@ -31,29 +31,35 @@ Console.WriteLine("Введите три числа:");
 int numberA = int.Parse(Console.ReadLine());
 int numberB = int.Parse(Console.ReadLine());
 int numberC = int.Parse(Console.ReadLine());
-if(numberA >= numberB)
+if(numberA > numberB)
 {
-    if(numberA >= numberC)
+    if(numberA > numberC)
     {
         Console.Write("max = ");
         Console.Write(numberA);
     }
 }
-if(numberB >= numberA)
+if(numberB > numberA)
 {
-    if(numberB >= numberC)
+    if(numberB > numberC)
     {
         Console.Write("max = ");
         Console.Write(numberB);
     }
 }
-if(numberC >= numberA)
+if(numberC > numberA)
 {
-    if(numberC >= numberB)
+    if(numberC > numberB)
     {
         Console.Write("max = ");
         Console.Write(numberC);
     }
+}
+else
+{
+    Console.WriteLine("Все числа равны между собой");
+    Console.Write("max = ");
+    Console.Write(numberA);
 }
 */
 
