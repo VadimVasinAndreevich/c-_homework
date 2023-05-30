@@ -5,7 +5,7 @@
 /*
 Console.Write("Введите число A, которое будет возводиться в степень: ");
 int numberA = int.Parse(Console.ReadLine());
-Console.Write("Введите число B, которое будет степенью числа В: ");
+Console.Write("Введите число B, которое будет степенью числа A: ");
 int numberB = int.Parse(Console.ReadLine());
 
 int result = Exponentiation(numberA, numberB);
