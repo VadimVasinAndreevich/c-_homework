@@ -75,13 +75,13 @@ Console.WriteLine(string.Join(", ", result));
 
 int[] GetTableOfSquares(int number)
 {
-    int[] TableOfSquares = new int[number];
-    for(int i = 0; i < TableOfSquares.Length; i++)
+    int[] tableOfSquares = new int[number];
+    for(int i = 0; i < tableOfSquares.Length; i++)
     {
         int tmp = i + 1;
-        TableOfSquares[i] = tmp * tmp * tmp;
+        tableOfSquares[i] = tmp * tmp * tmp;
     } 
-    return TableOfSquares; 
+    return tableOfSquares; 
 }
 */
 
